@@ -1,5 +1,6 @@
 package net.chris.mcscript.item;
 
+import com.mojang.brigadier.Command;
 import net.chris.mcscript.MCScript;
 import net.chris.mcscript.item.custom.ChiselItem;
 import net.chris.mcscript.item.custom.ScriptExecItem;
@@ -22,6 +23,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> SCRIPTEXECUTOR = ITEMS.register("scriptexecutor",
             () -> new ScriptExecItem(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

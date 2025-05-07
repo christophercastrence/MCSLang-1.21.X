@@ -1,0 +1,9 @@
+Let x = 0;
+Let i = 50;
+
+While (x < i) {
+    spawn("zombie", 2, 0, 2);
+    print(x);
+    x = x + 1;
+}
+

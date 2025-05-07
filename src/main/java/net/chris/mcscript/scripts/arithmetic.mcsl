@@ -1,0 +1,16 @@
+// Arithmetic Test Script
+
+Let x = 4;
+
+Let y = x + 2;
+print(y);
+
+Let z = y - 1
+print(z);
+
+Let a = z * 3;
+print(a);
+
+Let b = a / 2;
+print(b);
+

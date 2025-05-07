@@ -1,0 +1,13 @@
+Let x = 1;
+Let i = 50;
+
+For (x upto i)
+    If (x % 15 == 0)
+        print("FizzBuzz");
+    Elif (x % 3 == 0)
+        print("Fizz");
+    Elif (x % 5 == 0)
+        print("Buzz");
+    Else
+        print(x);
+
