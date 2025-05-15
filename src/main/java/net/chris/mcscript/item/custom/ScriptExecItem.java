@@ -14,7 +14,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ScriptExecItem extends Item {
-    private static final String SCRIPT_PATH = "/Users/work/Downloads/MCScript-1.21.X/src/main/java/net/chris/mcscript/scripts";
+    private static final String SCRIPT_PATH = "Insert File Path Here";
 
     public ScriptExecItem(Properties pProperties) {
         super(pProperties);
